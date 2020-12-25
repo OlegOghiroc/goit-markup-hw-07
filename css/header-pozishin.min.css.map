@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,kBAAkB,AAAC,CACjB,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,aAAa,CAAE,iBAAiB,CACjC,AAED,AAAA,eAAe,AAAC,CACd,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACpB",
+    "sources": [
+        "../sass/components/header-pozishin.scss"
+    ],
+    "names": [],
+    "file": "header-pozishin.min.css"
+}

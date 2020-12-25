@@ -1,0 +1,51 @@
+/* company description */
+.company-description__section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.icon__conteiner {
+  max-width: 270px;
+  padding-top: 25px;
+  padding-right: 102px;
+  padding-bottom: 25px;
+  padding-left: 102px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 4px;
+
+  background: #f5f4fa;
+}
+
+.description__title {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.description__text {
+  display: block;
+  margin-top: 10px;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.company-description__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company-description__items {
+  flex-basis: calc((100% - 90px) / 4);
+}
+
+.company-description__items:not(:last-child) {
+  margin-right: 30px;
+}
