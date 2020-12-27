@@ -1,4 +1,69 @@
 @charset "UTF-8";
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+/* primary text color #212121 */
+/* secondary text #757575 */
+/* background color #E5E5E5 */
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+}
+
+/* ==========conteiners========== */
+.company-description__conteiner,
+.section-hero__conteiner,
+.header__conteiner,
+.what-we-do__conteiner,
+.our-team__conteiner,
+.choice__conteiner,
+.our-clients__conteiner,
+.footer__conteiner {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* ========Title======== */
+.title,
+.text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 /* Header pozishin */
 .header__conteiner {
   display: -webkit-box;

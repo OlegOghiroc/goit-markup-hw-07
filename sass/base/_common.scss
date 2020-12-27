@@ -3,10 +3,10 @@
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
 }
-
 /* primary text color #212121 */
 /* secondary text #757575 */
 /* background color #E5E5E5 */
+
 body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -22,20 +22,6 @@ ul {
   margin: 0%;
   padding: 0%;
   list-style: none;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 /* ==========conteiners========== */
@@ -62,4 +48,3 @@ ul {
   padding-top: 0px;
   padding-bottom: 0px;
 }
-/*# sourceMappingURL=common.css.map */
