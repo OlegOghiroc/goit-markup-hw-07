@@ -44,8 +44,9 @@
 
 .company-description__items {
   flex-basis: calc((100% - 90px) / 4);
-}
-
-.company-description__items:not(:last-child) {
+  
+  &:not(:last-child) {
   margin-right: 30px;
 }
+}
+

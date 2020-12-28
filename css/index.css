@@ -136,8 +136,7 @@ ul {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav__link:hover,
-.site-nav__link:focus {
+.site-nav__link:hover, .site-nav__link:focus {
   color: var(--accent-color);
 }
 
@@ -154,8 +153,7 @@ ul {
   opacity: 0;
 }
 
-.site-nav__link:hover::after,
-.site-nav__link:focus::after {
+.site-nav__link:hover::after, .site-nav__link:focus::after {
   opacity: 1;
   -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -202,8 +200,7 @@ ul {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact__link:hover,
-.contact__link:focus {
+.contact__link:hover, .contact__link:focus {
   color: var(--accent-color);
 }
 
@@ -282,8 +279,7 @@ ul {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.order-button:hover,
-.order-button:focus {
+.order-button:hover, .order-button:focus {
   background-color: var(--accent-color);
   -webkit-transform: scaleX(1.05) scaleY(1.05);
           transform: scaleX(1.05) scaleY(1.05);
@@ -466,8 +462,7 @@ ul {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-team-icon__link:hover,
-.our-team-icon__link:focus {
+.our-team-icon__link:hover, .our-team-icon__link:focus {
   background-color: var(--accent-color);
   fill: #ffffff;
 }
@@ -559,8 +554,7 @@ ul {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-list__link:hover,
-.client-list__link:focus {
+.client-list__link:hover, .client-list__link:focus {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -651,13 +645,12 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-list__icons {
+.footer-social-list__link:hover, .footer-social-list__link:focus {
+  background-color: var(--accent-color);
   fill: #ffffff;
 }
 
-.footer-social-list__link:hover,
-.footer-social-list__link:focus {
-  background-color: var(--accent-color);
+.footer-social-list__icons {
   fill: #ffffff;
 }
 
@@ -832,13 +825,12 @@ ul {
   border-radius: 50%;
 }
 
-.close-modal-button__icon {
-  display: block;
+.close-modal-button:hover, .close-modal-button:focus {
+  fill: var(--accent-color);
 }
 
-.close-modal-button:hover,
-.close-modal-button:focus {
-  fill: var(--accent-color);
+.close-modal-button__icon {
+  display: block;
 }
 
 /*=== form === */
@@ -875,38 +867,6 @@ ul {
   color: #757575;
 }
 
-.input:focus,
-.input:hover {
-  outline: none;
-  border-color: #2196f3;
-}
-
-.input:focus + .input__icon,
-.input:hover + .input__icon {
-  fill: var(--accent-color);
-}
-
-.input__vraper {
-  position: relative;
-  display: block;
-}
-
-.input {
-  cursor: pointer;
-  width: 100%;
-}
-
-.input__icon {
-  position: absolute;
-  margin-left: 12px;
-  width: 18px;
-  height: 18px;
-  top: 50%;
-  left: 0px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
 .modal-form__field input {
   height: 40px;
   padding: 11px 12px;
@@ -939,7 +899,38 @@ ul {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.__-policy {
+.input__vraper {
+  position: relative;
+  display: block;
+}
+
+.input {
+  cursor: pointer;
+  width: 100%;
+}
+
+.input:focus, .input:hover {
+  outline: none;
+  border-color: #2196f3;
+}
+
+.input:focus + .input__icon,
+.input:hover + .input__icon {
+  fill: var(--accent-color);
+}
+
+.input__icon {
+  position: absolute;
+  margin-left: 12px;
+  width: 18px;
+  height: 18px;
+  top: 50%;
+  left: 0px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.checkbox__policy {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -971,11 +962,6 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.checkbox__input:checked + .checkbox__label::before {
-  background-color: var(--accent-color);
-  background-image: url(../Images/icons/iconcheck.svg);
-}
-
 .checkbox__label::before {
   margin-right: 8px;
   content: '';
@@ -986,6 +972,11 @@ ul {
   height: 15px;
   border-radius: 2px;
   background-image: url(../Images/icons/checkbox-border.svg);
+}
+
+.checkbox__input:checked + .checkbox__label::before {
+  background-color: var(--accent-color);
+  background-image: url(../Images/icons/iconcheck.svg);
 }
 
 .submit-button {
@@ -1016,8 +1007,7 @@ ul {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.submit-button:hover,
-.submit-button:focus {
+.submit-button:hover, .submit-button:focus {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
